@@ -9,12 +9,12 @@ import Booking from "./pages/Booking";
 
 function App() {
   return (
-    <HashRouter>
+    
  <Routes>
    <Route path="/" element={<Home />} />
    <Route path="/booking" element={<Booking />} />
  </Routes>
-    </HashRouter>
+    
   );
 }
 
