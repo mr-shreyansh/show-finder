@@ -5,7 +5,7 @@ const Card = ({ data,name, rating, language, image, date }) => {
 
 
     return (
-        <div className='max-w-[250px] bg-stone-800 text-yellow-400 shadow-lg shadow-purple-200 box-border'>
+        <div className='max-w-[250px] max-h-[350px] bg-stone-800 text-yellow-400 shadow-lg shadow-purple-200 box-border'>
             <img src={image?.medium} alt={name} height={200} width={220} className='h-[250px]' />
             <div className='px-2 py-2'>
                 <h2 className='text-lg font-semibold text-gray-200'>{name}</h2>
