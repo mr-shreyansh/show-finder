@@ -20,8 +20,8 @@ const Booking = (props) => {
       }, []);
 
   return (
-    <div className="w-[100vw] h-[100vh] bg-no-repeat bg-cover bg-opacity-10" style={{backgroundImage: `url(${pict})`}}>
-        <div className=' bg-black bg-opacity-80 text-white w-[100vw] h-[100vh] flex flex-col px-3'>
+    <div className="w-[100vw] min-h-[100vh] bg-no-repeat bg-cover bg-opacity-10" style={{backgroundImage: `url(${pict})`}}>
+        <div className=' bg-black bg-opacity-80 text-white w-[100vw] min-h-[100vh] flex flex-col px-3'>
 
       {
           display &&
